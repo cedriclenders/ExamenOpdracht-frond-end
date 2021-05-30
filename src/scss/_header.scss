@@ -9,9 +9,8 @@
 
 header {
   @include flexCenter(column, red);
-  color: $textColor;
   button {
-    background: $primaryBtn;
+    background: $primaryColor;
     &:hover {
       background: yellow;
     }
