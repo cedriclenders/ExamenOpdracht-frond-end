@@ -68,6 +68,13 @@ a {
   .button_section4:hover {
     color: #333333; }
 
+input[type="text"] {
+  width: 90%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 2px solid #dadada;
+  border-radius: 5%; }
+
 header {
   display: flex;
   justify-content: center;
