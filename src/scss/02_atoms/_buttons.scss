@@ -1,15 +1,36 @@
 .nav_button {
   color: white;
-  font-weight: 600;
   padding: 10px 40px;
   border: 2px solid rgba($color: $textWhite, $alpha: 0.3);
-  font-weight: bold;
   border-radius: 5%;
+  &:hover {
+    color: $textBlack;
+  }
+}
 
-  a {
-    text-decoration: none;
-    &:hover {
-      color: $textBlack;
-    }
+.button_section1,
+.button_section5 {
+  padding: 10px 40px;
+  border: 2px $textBlack solid;
+  border-radius: 5%;
+  background-color: white;
+  color: $textBlack;
+}
+
+.button_section2,
+.button_section3 {
+  padding: 10px 40px;
+  border-radius: 5%;
+  background-color: $primaryColor;
+  color: $textWhite;
+}
+
+.button_section4 {
+  padding: 10px 40px;
+  color: $primaryColor;
+  border: 2px solid rgba($color: $primaryColor, $alpha: 0.3);
+  border-radius: 5%;
+  &:hover {
+    color: $textBlack;
   }
 }

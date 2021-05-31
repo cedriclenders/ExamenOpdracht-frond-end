@@ -27,6 +27,9 @@ a {
   font-weight: 600;
   font-size: 16px; }
 
+a {
+  text-decoration: none; }
+
 .label {
   font-family: "DM Sans", sans-serif;
   color: #333333;
@@ -36,15 +39,34 @@ a {
 
 .nav_button {
   color: white;
-  font-weight: 600;
   padding: 10px 40px;
   border: 2px solid rgba(255, 255, 255, 0.3);
-  font-weight: bold;
   border-radius: 5%; }
-  .nav_button a {
-    text-decoration: none; }
-    .nav_button a:hover {
-      color: #333333; }
+  .nav_button:hover {
+    color: #333333; }
+
+.button_section1,
+.button_section5 {
+  padding: 10px 40px;
+  border: 2px #333333 solid;
+  border-radius: 5%;
+  background-color: white;
+  color: #333333; }
+
+.button_section2,
+.button_section3 {
+  padding: 10px 40px;
+  border-radius: 5%;
+  background-color: #be6361;
+  color: #ffffff; }
+
+.button_section4 {
+  padding: 10px 40px;
+  color: #be6361;
+  border: 2px solid rgba(190, 99, 97, 0.3);
+  border-radius: 5%; }
+  .button_section4:hover {
+    color: #333333; }
 
 header {
   display: flex;
