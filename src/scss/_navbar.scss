@@ -7,7 +7,6 @@
     padding: 10px 40px;
     border: 1px solid rgba($color: $textWhite, $alpha: 0.3);
     font-weight: bold;
-    color: $textWhite;
     border-radius: 5%;
     &:hover {
       color: $textBlack;
@@ -19,7 +18,6 @@
   @media only screen and (max-width: 700px) {
     .mobileIcon {
       display: block;
-      align-self: flex-end;
     }
   }
 }
@@ -34,8 +32,6 @@
     display: inline-block;
     padding: 20px 20px;
     a {
-      font-weight: bold;
-      color: $textWhite;
       text-decoration: none;
       &:hover {
         color: $textBlack;

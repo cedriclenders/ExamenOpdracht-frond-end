@@ -1,13 +1,30 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
-* {
-  box-sizing: border-box;
-  margin: auto;
-  font-family: "DM Sans", sans-serif; }
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: "Alfa Slab One", cursive; }
+
+h1 {
+  font-size: 72px;
+  line-height: 80px; }
+
+h2 {
+  font-size: 56px;
+  line-height: 64px; }
+
+h3 {
+  font-size: 40px;
+  line-height: 48px; }
+
+p,
+a {
+  font-family: "DM Sans", sans-serif;
+  color: #ffffff;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 16px; }
 
 header {
   display: flex;
@@ -30,7 +47,6 @@ header {
     padding: 10px 40px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     font-weight: bold;
-    color: #ffffff;
     border-radius: 5%; }
     .navbar .nav-button:hover {
       color: #333333; }
@@ -38,8 +54,7 @@ header {
     display: none; }
   @media only screen and (max-width: 700px) {
     .navbar .mobileIcon {
-      display: block;
-      align-self: flex-end; } }
+      display: block; } }
 
 @media only screen and (max-width: 700px) {
   .navbar {
@@ -51,8 +66,6 @@ header {
     display: inline-block;
     padding: 20px 20px; }
     .nav-elements .nav-element a {
-      font-weight: bold;
-      color: #ffffff;
       text-decoration: none; }
       .nav-elements .nav-element a:hover {
         color: #333333; }
@@ -61,3 +74,7 @@ header {
   .nav-elements,
   .nav-button {
     display: none; } }
+
+* {
+  box-sizing: border-box;
+  margin: auto; }
