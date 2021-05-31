@@ -1,0 +1,16 @@
+//mobile
+@media only screen and (max-width: 700px) {
+  .nav-elements,
+  .nav_button {
+    display: none;
+  }
+}
+
+// full width
+.nav-elements {
+  list-style-type: none;
+  .nav-element {
+    display: inline-block;
+    padding: 20px 20px;
+  }
+}

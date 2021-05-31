@@ -1,0 +1,10 @@
+@media only screen and (max-width: 700px) {
+  .nav-elements,
+  .nav_button {
+    display: none; } }
+
+.nav-elements {
+  list-style-type: none; }
+  .nav-elements .nav-element {
+    display: inline-block;
+    padding: 20px 20px; }

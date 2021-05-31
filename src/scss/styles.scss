@@ -1,12 +1,13 @@
+@import "./01_fundaments/canvas";
 @import "./01_fundaments/colors";
 @import "./01_fundaments/fonts";
 @import "./02_atoms/buttons";
 @import "./02_atoms/inputs";
 @import "./02_atoms/typography";
-@import "./header";
-@import "./navbar";
-
-* {
-  box-sizing: border-box;
-  margin: auto;
-}
+@import "./02_atoms/mobileicon";
+@import "./03_molecules/nav_elements";
+@import "./03_molecules/submitInput";
+@import "./03_molecules/iconItem";
+@import "./04_organisms/navbar";
+@import "./04_organisms/section1";
+@import "./04_organisms/section2";
