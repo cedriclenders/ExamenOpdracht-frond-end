@@ -8,8 +8,7 @@
   }
 }
 
-.button_section1,
-.button_section5 {
+.button_white {
   padding: 10px 40px;
   border: 2px $textBlack solid;
   border-radius: 5%;
@@ -17,17 +16,17 @@
   color: $textBlack;
 }
 
-.button_section2,
-.button_section3 {
+.button_pink {
   padding: 10px 40px;
   border-radius: 5%;
   background-color: $primaryColor;
   color: $textWhite;
 }
 
-.button_section4 {
+.button_transparant {
   padding: 10px 40px;
   color: $primaryColor;
+  background-color: transparent;
   border: 2px solid rgba($color: $primaryColor, $alpha: 0.3);
   border-radius: 5%;
   &:hover {

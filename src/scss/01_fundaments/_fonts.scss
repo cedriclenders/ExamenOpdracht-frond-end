@@ -5,39 +5,20 @@ $headingFont: "Alfa Slab One", cursive;
 $bodyFont: "DM Sans", sans-serif;
 h1,
 h2,
-h3,
-h4 {
+h3 {
   font-family: $headingFont;
 }
+h4,
+h5 {
+  font-family: $bodyFont;
+}
 
-h1 {
-  font-size: 72px;
-  line-height: 80px;
-}
-h2 {
-  font-size: 56px;
-  line-height: 64px;
-}
-h3 {
-  font-size: 40px;
-  line-height: 48px;
-}
-p,
+.text,
 a {
   font-family: $bodyFont;
   color: $textWhite;
-  padding: 15px;
-  line-height: 24px;
-  font-weight: 600;
-  font-size: 16px;
 }
-a {
-  text-decoration: none;
-}
-.label {
+
+.input {
   font-family: $bodyFont;
-  color: $textBlack;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 600;
 }

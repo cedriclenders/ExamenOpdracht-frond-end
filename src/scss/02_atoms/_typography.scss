@@ -1,0 +1,66 @@
+h1 {
+  font-size: 72px;
+  line-height: 80px;
+}
+h2 {
+  font-size: 56px;
+  line-height: 64px;
+}
+h3 {
+  font-size: 40px;
+  line-height: 48px;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+h4 {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+h5 {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 600;
+  color: $primaryColor;
+}
+a {
+  text-decoration: none;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 16px;
+}
+.text {
+  font-family: $bodyFont;
+  color: $textBlack;
+  line-height: 24px;
+  font-weight: 600;
+  font-size: 16px;
+  &_small {
+    font-size: 12px;
+  }
+  &_grey {
+    font-weight: normal;
+    color: rgba($textBlack, 0.5);
+  }
+  &_big {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: normal;
+  }
+}
+.label {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 600;
+}
+input {
+  padding-left: 5%;
+  font-family: $bodyFont;
+  font-weight: normal;
+  color: rgba($textBlack, 0.5);
+  line-height: 24px;
+  font-size: 16px;
+}
