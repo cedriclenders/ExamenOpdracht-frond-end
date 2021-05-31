@@ -23,8 +23,28 @@ a {
   font-family: "DM Sans", sans-serif;
   color: #ffffff;
   padding: 15px;
+  line-height: 24px;
   font-weight: 600;
   font-size: 16px; }
+
+.label {
+  font-family: "DM Sans", sans-serif;
+  color: #333333;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600; }
+
+.nav_button {
+  color: white;
+  font-weight: 600;
+  padding: 10px 40px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+  border-radius: 5%; }
+  .nav_button a {
+    text-decoration: none; }
+    .nav_button a:hover {
+      color: #333333; }
 
 header {
   display: flex;

@@ -1,0 +1,15 @@
+.nav_button {
+  color: white;
+  font-weight: 600;
+  padding: 10px 40px;
+  border: 2px solid rgba($color: $textWhite, $alpha: 0.3);
+  font-weight: bold;
+  border-radius: 5%;
+
+  a {
+    text-decoration: none;
+    &:hover {
+      color: $textBlack;
+    }
+  }
+}
