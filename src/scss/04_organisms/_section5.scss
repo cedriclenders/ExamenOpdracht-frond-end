@@ -1,0 +1,42 @@
+#section5 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+
+  text-align: center;
+  background-image: url("/src/images/RunningTrack.png");
+  background-size: cover;
+  background-position: 60% 80%;
+  h3 {
+    display: block;
+    color: $textWhite;
+    padding-top: 3%;
+  }
+  h2 {
+    padding-top: 3%;
+    display: none;
+    color: $textWhite;
+  }
+  h5 {
+    color: $textWhite;
+  }
+  .button_wrapper {
+    padding-top: 10%;
+  }
+
+  @media only screen and (min-width: 700px) {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    h3 {
+      display: none !important;
+    }
+    h2 {
+      display: block !important;
+    }
+
+    .button_wrapper {
+      padding-top: 3%;
+    }
+  }
+}

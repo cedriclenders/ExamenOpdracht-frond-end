@@ -323,3 +323,35 @@ ul {
         #section4 .image_wrapper img {
           width: 100%;
           display: inline; } }
+
+#section5 {
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 15%;
+  padding-bottom: 15%;
+  text-align: center;
+  background-image: url("/src/images/RunningTrack.png");
+  background-size: cover;
+  background-position: 60% 80%; }
+  #section5 h3 {
+    display: block;
+    color: #ffffff;
+    padding-top: 3%; }
+  #section5 h2 {
+    padding-top: 3%;
+    display: none;
+    color: #ffffff; }
+  #section5 h5 {
+    color: #ffffff; }
+  #section5 .button_wrapper {
+    padding-top: 10%; }
+  @media only screen and (min-width: 700px) {
+    #section5 {
+      padding-top: 5%;
+      padding-bottom: 5%; }
+      #section5 h3 {
+        display: none !important; }
+      #section5 h2 {
+        display: block !important; }
+      #section5 .button_wrapper {
+        padding-top: 3%; } }
