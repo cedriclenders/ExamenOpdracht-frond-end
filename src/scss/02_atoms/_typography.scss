@@ -56,6 +56,15 @@ a {
     line-height: 32px;
     font-weight: normal;
   }
+  &_halfwhite {
+    font-weight: normal;
+    color: rgba($textWhite, 0.5);
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+  &_white {
+    color: $textWhite;
+  }
 }
 .label {
   font-size: 12px;

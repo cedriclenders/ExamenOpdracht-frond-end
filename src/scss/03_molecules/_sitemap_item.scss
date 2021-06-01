@@ -1,0 +1,17 @@
+.sitemap_title {
+  .text {
+    color: $textWhite;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+.sitemap_item_list {
+  color: rgba($textWhite, 0.5) !important;
+  li {
+    .text {
+      padding-top: 5px;
+      padding-bottom: 5px;
+    }
+  }
+}

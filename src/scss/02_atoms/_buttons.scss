@@ -14,6 +14,7 @@
   border-radius: 5%;
   background-color: white;
   color: $textBlack;
+  cursor: pointer;
 }
 
 .button_pink {
@@ -21,6 +22,9 @@
   border-radius: 5%;
   background-color: $primaryColor;
   color: $textWhite;
+  cursor: pointer;
+  &:hover {
+  }
 }
 
 .button_transparant {
@@ -29,6 +33,7 @@
   background-color: transparent;
   border: 2px solid rgba($color: $primaryColor, $alpha: 0.3);
   border-radius: 5%;
+  cursor: pointer;
   &:hover {
     color: $textBlack;
   }

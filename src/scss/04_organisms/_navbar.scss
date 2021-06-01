@@ -1,12 +1,15 @@
 .navbar {
-  color: $textWhite;
   background-color: $pink;
+  color: $textWhite;
   display: flex;
   justify-content: space-between;
+  padding-left: 5%;
+  padding-right: 5%;
+  align-items: center;
 }
 
 @media only screen and (max-width: 700px) {
   .navbar {
-    justify-content: flex-end !important;
+    justify-content: space-between;
   }
 }
