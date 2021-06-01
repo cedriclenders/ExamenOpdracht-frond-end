@@ -12,4 +12,54 @@
   .navbar {
     justify-content: space-between;
   }
+  .icon {
+    display: block;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between;
+  }
+  .icon {
+    display: none;
+  }
+}
+.fas fa-times {
+  color: white !important;
+  display: block;
+  cursor: pointer;
+}
+
+.navmobile {
+  transition: 2s;
+  background-color: black;
+  padding: 10%;
+  /*   display: none; */
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  padding-top: 50%;
+  align-items: center;
+}
+
+.hidden {
+  right: 100vw;
+  left: -50vw;
+}
+
+.navmobile a {
+  font-size: 30px;
+  color: white;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.fa-times-circle {
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
 }

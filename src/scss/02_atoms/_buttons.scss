@@ -4,7 +4,8 @@
   border: 2px solid rgba($color: $textWhite, $alpha: 0.3);
   border-radius: 5%;
   &:hover {
-    color: $textBlack;
+    background-color: darken($primaryColor, 5%);
+    transition: all 0.4s ease 0s;
   }
 }
 
@@ -15,6 +16,12 @@
   background-color: white;
   color: $textBlack;
   cursor: pointer;
+  &:hover {
+    color: #ffffff !important;
+    background: $darkPink;
+    border-color: $darkPink !important;
+    transition: all 0.4s ease 0s;
+  }
 }
 
 .button_pink {
@@ -24,6 +31,8 @@
   color: $textWhite;
   cursor: pointer;
   &:hover {
+    background-color: darken($primaryColor, 15%);
+    transition: all 0.4s ease 0s;
   }
 }
 
@@ -35,7 +44,10 @@
   border-radius: 5%;
   cursor: pointer;
   &:hover {
-    color: $textBlack;
+    color: #ffffff !important;
+    background: $darkPink;
+    border-color: $darkPink !important;
+    transition: all 0.4s ease 0s;
   }
 }
 

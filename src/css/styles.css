@@ -31,7 +31,8 @@ a {
   border: 2px solid rgba(255, 255, 255, 0.3);
   border-radius: 5%; }
   .nav_button:hover {
-    color: #333333; }
+    background-color: #b7514f;
+    transition: all 0.4s ease 0s; }
 
 .button_white {
   padding: 10px 40px;
@@ -40,6 +41,11 @@ a {
   background-color: white;
   color: #333333;
   cursor: pointer; }
+  .button_white:hover {
+    color: #ffffff !important;
+    background: #a85756;
+    border-color: #a85756 !important;
+    transition: all 0.4s ease 0s; }
 
 .button_pink {
   padding: 12px 42px;
@@ -47,6 +53,9 @@ a {
   background-color: #be6361;
   color: #ffffff;
   cursor: pointer; }
+  .button_pink:hover {
+    background-color: #953f3d;
+    transition: all 0.4s ease 0s; }
 
 .button_transparant {
   padding: 10px 40px;
@@ -56,7 +65,10 @@ a {
   border-radius: 5%;
   cursor: pointer; }
   .button_transparant:hover {
-    color: #333333; }
+    color: #ffffff !important;
+    background: #a85756;
+    border-color: #a85756 !important;
+    transition: all 0.4s ease 0s; }
 
 .button_wrapper {
   margin-bottom: 3%;
@@ -173,6 +185,8 @@ input {
   .nav-elements .nav-element {
     display: inline-block;
     padding: 20px 20px; }
+    .nav-elements .nav-element:hover {
+      color: #333333 !important; }
 
 .submitInput {
   padding-top: 15px; }
@@ -197,7 +211,10 @@ input {
     top: 0;
     left: 0;
     right: 0;
-    bottom: 0; }
+    bottom: 0;
+    transition: transform 0.7s ease-in-out; }
+    .iconItem .imgBorder img:hover {
+      transform: rotate(360deg); }
 
 .iconItem .iconNumber {
   font-family: "Alfa Slab One", cursive;
@@ -233,7 +250,51 @@ input {
 
 @media only screen and (max-width: 700px) {
   .navbar {
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  .icon {
+    display: block; } }
+
+@media only screen and (min-width: 700px) {
+  .navbar {
+    justify-content: space-between; }
+  .icon {
+    display: none; } }
+
+.fas fa-times {
+  color: white !important;
+  display: block;
+  cursor: pointer; }
+
+.navmobile {
+  transition: 2s;
+  background-color: black;
+  padding: 10%;
+  /*   display: none; */
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  left: 5px;
+  right: 5px;
+  text-align: center;
+  padding-top: 50%;
+  align-items: center; }
+
+.hidden {
+  right: 100vw;
+  left: -50vw; }
+
+.navmobile a {
+  font-size: 30px;
+  color: white;
+  display: block;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.fa-times-circle {
+  color: white;
+  font-size: 20px;
+  cursor: pointer; }
 
 #section1 {
   background-color: #ff8482;
