@@ -17,7 +17,7 @@
 }
 
 .button_pink {
-  padding: 10px 40px;
+  padding: 12px 42px;
   border-radius: 5%;
   background-color: $primaryColor;
   color: $textWhite;
@@ -32,4 +32,8 @@
   &:hover {
     color: $textBlack;
   }
+}
+
+.button_wrapper {
+  margin-bottom: 35px;
 }

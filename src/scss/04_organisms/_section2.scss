@@ -2,4 +2,39 @@
   background-color: $beige;
   padding-left: 5%;
   padding-right: 5%;
+  h5,
+  h2 {
+    display: block;
+  }
+  h1 {
+    display: none;
+  }
+  img {
+    width: 100%;
+  }
+  .button_wrapper {
+    padding-bottom: 35px;
+  }
+}
+//full width
+@media only screen and (min-width: 700px) {
+  #section2 {
+    display: flex;
+    align-items: center;
+    h2 {
+      display: none !important;
+    }
+    h1 {
+      display: block !important;
+    }
+
+    .section2_text {
+      flex: 1;
+    }
+    img {
+      display: inline;
+      width: 50%;
+      flex: 1;
+    }
+  }
 }
