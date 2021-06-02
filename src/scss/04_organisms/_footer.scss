@@ -11,14 +11,6 @@ footer {
   .text_big {
     color: $textWhite;
   }
-
-  .socials_wrapper {
-    display: flex;
-    .social_icon {
-      font-weight: normal;
-      padding-right: 15px;
-    }
-  }
 }
 #bottom_footer {
   background-color: $darkPink;

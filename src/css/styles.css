@@ -197,6 +197,12 @@ input {
     .submitInput .button_white {
       float: left; } }
 
+.socials_wrapper {
+  display: flex; }
+  .socials_wrapper .social_icon {
+    font-weight: normal;
+    padding-right: 15px; }
+
 .iconItem .imgBorder {
   position: relative;
   width: 170px;
@@ -252,7 +258,9 @@ input {
   .navbar {
     justify-content: space-between; }
   .icon {
-    display: block; } }
+    display: block; }
+  .navmobile {
+    display: none; } }
 
 @media only screen and (min-width: 700px) {
   .navbar {
@@ -266,15 +274,16 @@ input {
   cursor: pointer; }
 
 .navmobile {
-  transition: 2s;
-  background-color: black;
+  display: block;
+  transition: 0.7s ease 0s;
+  background-color: #fff2dd;
   padding: 10%;
   /*   display: none; */
   position: absolute;
-  top: 5px;
-  bottom: 5px;
-  left: 5px;
-  right: 5px;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
   text-align: center;
   padding-top: 50%;
   align-items: center; }
@@ -285,14 +294,14 @@ input {
 
 .navmobile a {
   font-size: 30px;
-  color: white;
+  color: #333333;
   display: block;
   width: 100%;
   padding-top: 10px;
   padding-bottom: 10px; }
 
 .fa-times-circle {
-  color: white;
+  color: #333333;
   font-size: 20px;
   cursor: pointer; }
 
@@ -455,11 +464,6 @@ footer {
     padding-top: 5%; }
   footer .text_big {
     color: #ffffff; }
-  footer .socials_wrapper {
-    display: flex; }
-    footer .socials_wrapper .social_icon {
-      font-weight: normal;
-      padding-right: 15px; }
 
 #bottom_footer {
   background-color: #a85756;
