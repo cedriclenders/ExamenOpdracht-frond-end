@@ -185,7 +185,7 @@ input {
   .nav-elements .nav-element {
     display: inline-block;
     padding: 20px 20px; }
-    .nav-elements .nav-element:hover {
+    .nav-elements .nav-element a:hover {
       color: #333333 !important; }
 
 .submitInput {
@@ -202,6 +202,8 @@ input {
   .socials_wrapper .social_icon {
     font-weight: normal;
     padding-right: 15px; }
+    .socials_wrapper .social_icon:hover {
+      color: #333333; }
 
 .iconItem .imgBorder {
   position: relative;
@@ -250,23 +252,23 @@ input {
   color: #ffffff;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-left: 5%;
-  padding-right: 5%;
-  align-items: center; }
+  padding-right: 5%; }
 
 @media only screen and (max-width: 700px) {
   .navbar {
     justify-content: space-between; }
   .icon {
-    display: block; }
-  .navmobile {
-    display: none; } }
+    display: block; } }
 
 @media only screen and (min-width: 700px) {
   .navbar {
     justify-content: space-between; }
   .icon {
-    display: none; } }
+    display: none; }
+  .navmobile {
+    display: none !important; } }
 
 .fas fa-times {
   color: white !important;
