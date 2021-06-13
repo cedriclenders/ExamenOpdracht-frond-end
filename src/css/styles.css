@@ -268,7 +268,9 @@ input {
   .navbar {
     justify-content: space-between; }
   .icon {
-    display: none; } }
+    display: none; }
+  .nav_mobile {
+    display: none !important; } }
 
 .fas fa-times {
   color: white !important;
