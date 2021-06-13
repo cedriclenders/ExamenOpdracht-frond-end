@@ -15,7 +15,7 @@
   .icon {
     display: block;
   }
-  .navmobile {
+  .nav_mobile {
     display: none;
   }
 }
@@ -33,7 +33,7 @@
   cursor: pointer;
 }
 
-.navmobile {
+.nav_mobile {
   display: block;
   transition: 0.7s ease 0s;
   background-color: $beige;
@@ -54,7 +54,7 @@
   left: -50vw;
 }
 
-.navmobile a {
+.nav_mobile a {
   font-size: 30px;
   color: $textBlack;
   display: block;

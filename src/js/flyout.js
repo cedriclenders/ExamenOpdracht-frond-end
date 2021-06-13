@@ -1,11 +1,11 @@
 $(function () {
-    $(".mobileIcon").click(function () {
+    $(".mobile_icon").click(function () {
       $(this).toggleClass("active");
-      $(".navmobile").toggleClass("hidden");
+      $(".nav_mobile").toggleClass("hidden");
     });
   
     $(".fa-times-circle").click(function () {
       $(this).toggleClass("active");
-      $(".navmobile").toggleClass("hidden");
+      $(".nav_mobile").toggleClass("hidden");
     });
   });

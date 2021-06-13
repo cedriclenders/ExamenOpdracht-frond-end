@@ -11,8 +11,8 @@
   h2 {
     display: none;
   }
-  .iconItem {
-    .imgBorder {
+  .icon_item {
+    .img_border {
       margin: 0 auto;
       margin-top: 20px;
       margin-bottom: 20px;
@@ -29,7 +29,7 @@
     .icon_wrapper {
       display: flex;
       flex-wrap: wrap;
-      .iconItem {
+      .icon_item {
         flex: 0 0 33.333333%;
       }
     }
